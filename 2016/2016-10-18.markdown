@@ -1,0 +1,12 @@
+# 2016-10-18
+
+## vc7
+
+昨天做點突破，實作出 app 內共用的 web view controller 並加上常見的控制項，例如切換上下頁、重新整理，和 loading 進度條。
+
+注意點： `WKWebView` 無法直接設定在 Interface Builder 上，必須手動加入畫面中
+
+## Jason
+
+昨天修復跳頁以及記憶URL部分的實作，並修改 API 串接時沒有完成的部分(裝置ID的參數)
+目標是要串接 LoginByToken 這支 API，之前沒有使用它
